@@ -1,0 +1,12 @@
+//Kurtt Villodres
+
+//Number #2
+public class School{    
+
+    public static void main(String[] args){
+
+        System.out.print("NAME\t\tAGE\t\tCOURSE\n");
+        System.out.print("John Doe\t 20\t Computer Science);
+
+    }
+}
