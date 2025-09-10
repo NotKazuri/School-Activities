@@ -1,0 +1,23 @@
+//Kurtt Villodres
+
+//Number #2
+public class School{    
+
+    public static void main(String[] args){
+
+        //Width of the banner
+        int x = 75;
+
+        //Prints the banner
+        String quote = ("The biggest risk is not taking any risk.");
+        String zegoat = ("-Mark Zuckerberg");
+
+        System.out.println("*".repeat(x) + "\n\n");
+        System.out.print("\t\t" + quote + "\n");
+
+        System.out.println("\t\t" + zegoat + "\n\n");
+        System.out.println("*".repeat(x));
+
+
+    }
+}
