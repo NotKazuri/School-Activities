@@ -1,0 +1,52 @@
+//Kurtt Villodres
+
+//Number #3
+public class School{    
+
+    public static void main(String[] args){
+
+        int x = 1;
+        int y = 1;
+        int z = 1;
+        int c = 1;
+        int v = 1;
+
+        while(x <= 5){
+            System.out.print("\t\t" + x++);
+        }
+
+        System.out.println("");
+
+        while(y <= 5){
+            System.out.print("\t\t" + (y * 2));{
+                y++;
+            }
+        }
+
+        System.out.println("");
+
+        while(z <= 5){
+            System.out.print("\t\t" + (z * 3));{
+                z++;
+            }
+        }
+
+        System.out.println("");
+
+        while(c <= 5){
+            System.out.print("\t\t" + (c * 4));{
+                c++;
+            }
+        }
+
+        System.out.println("");
+
+        while(v <= 5){
+            System.out.print("\t\t" + (v * 5));{
+                v++;
+            }
+        }
+
+
+    }
+}
