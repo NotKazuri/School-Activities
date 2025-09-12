@@ -1,0 +1,39 @@
+//Kurtt Villodres
+import java.text.DecimalFormat;
+import java.util.Scanner;
+
+
+public class School {    
+    public static void main(String[] args) {
+
+        //Create a program that calculates monthly loan payment
+
+        //Variables        
+
+        //Initialize the packages
+        Scanner input = new Scanner(System.in);
+        DecimalFormat df = new DecimalFormat("P#,###,###.00");
+
+        System.out.print("Enter Loan Amount: ");
+        double P = input.nextDouble();
+
+        System.out.print("Enter Interest rate(%): ");
+        double annualRate = input.nextDouble();
+
+        System.out.print("Enter Loan term (in years): ");
+        int years = input.nextInt();
+
+        //Calculations
+        double r = (annualRate/12/100);
+        double n = years * 12;
+
+        //convert the formulat into code
+        double factor = Math.pow(1 + r, n);
+        double numerator = P * r * factor;
+        double denominator = factor - 1;
+
+        double M = numerator / denominator;
+
+        System.out.print("Total monthly payment: " + df.format(M));
+    }
+}
